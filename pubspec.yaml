@@ -1,6 +1,6 @@
 name: nholiday_jp
 description: Public holidays in Japan. This is based on the national holiday law.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/ramorio/nholiday_jp
 
 environment:

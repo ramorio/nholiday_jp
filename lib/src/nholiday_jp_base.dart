@@ -32,10 +32,13 @@ final constants = {
     { 'from': 1993, 'to': 1993, 'month': 6, 'date': 9, 'name': '皇太子徳仁親王の結婚の儀' },
     { 'from': 1996, 'to': 2002, 'month': 7, 'date': 20, 'name': '海の日' },
     { 'from': 2020, 'to': 2020, 'month': 7, 'date': 23, 'name': '海の日' },
+    { 'from': 2021, 'to': 2021, 'month': 7, 'date': 22, 'name': '海の日' },
     { 'from': 2020, 'to': 2020, 'month': 7, 'date': 24, 'name': 'スポーツの日' },
+    { 'from': 2021, 'to': 2021, 'month': 7, 'date': 23, 'name': 'スポーツの日' },
     { 'from': 2016, 'to': 2019, 'month': 8, 'date': 11, 'name': '山の日' },
     { 'from': 2020, 'to': 2020, 'month': 8, 'date': 10, 'name': '山の日' },
-    { 'from': 2021, 'to': null, 'month': 8, 'date': 11, 'name': '山の日' },
+    { 'from': 2021, 'to': 2021, 'month': 8, 'date': 8, 'name': '山の日' },
+    { 'from': 2022, 'to': null, 'month': 8, 'date': 11, 'name': '山の日' },
     { 'from': 1966, 'to': 2002, 'month': 9, 'date': 15, 'name': '敬老の日' },
     { 'from': 1966, 'to': 1999, 'month': 10, 'date': 10, 'name': '体育の日' },
     { 'from': 2019, 'to': 2019, 'month': 10, 'date': 22, 'name': '即位の礼正殿の儀' },
@@ -50,10 +53,10 @@ final constants = {
   'happyMonday': [
     { 'from': 2000, 'to': null, 'month': 1, 'turn': 2, 'name': '成人の日' },
     { 'from': 2003, 'to': 2019, 'month': 7, 'turn': 3, 'name': '海の日' },
-    { 'from': 2021, 'to': null, 'month': 7, 'turn': 3, 'name': '海の日' },
+    { 'from': 2022, 'to': null, 'month': 7, 'turn': 3, 'name': '海の日' },
     { 'from': 2003, 'to': null, 'month': 9, 'turn': 3, 'name': '敬老の日' },
     { 'from': 2000, 'to': 2019, 'month': 10, 'turn': 2, 'name': '体育の日' },
-    { 'from': 2021, 'to': null, 'month': 10, 'turn': 2, 'name': 'スポーツの日' },
+    { 'from': 2022, 'to': null, 'month': 10, 'turn': 2, 'name': 'スポーツの日' },
   ],
   // 春分の日 3月
   // mod4: 配列のindexが西暦を4で割った余り

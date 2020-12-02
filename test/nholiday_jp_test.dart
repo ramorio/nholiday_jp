@@ -58,5 +58,27 @@ void main() {
       expect(holidays[16].toString(), '11/3 文化の日');
       expect(holidays[17].toString(), '11/23 勤労感謝の日');
     });
+
+    test('getByYear 2021', () {
+      final holidays = NHolidayJp.getByYear(2021);
+      expect(holidays[0].toString(), '1/1 元日');
+      expect(holidays[1].toString(), '1/11 成人の日');
+      expect(holidays[2].toString(), '2/11 建国記念の日');
+      expect(holidays[3].toString(), '2/23 天皇誕生日');
+      expect(holidays[4].toString(), '3/20 春分の日');
+      expect(holidays[5].toString(), '4/29 昭和の日');
+      expect(holidays[6].toString(), '5/3 憲法記念日');
+      expect(holidays[7].toString(), '5/4 みどりの日');
+      expect(holidays[8].toString(), '5/5 こどもの日');
+      expect(holidays[9].toString(), '7/22 海の日');
+      expect(holidays[10].toString(), '7/23 スポーツの日');
+      expect(holidays[11].toString(), '8/8 山の日');
+      expect(holidays[12].toString(), '8/9 振替休日');
+      expect(holidays[13].toString(), '9/20 敬老の日');
+      expect(holidays[14].toString(), '9/23 秋分の日');
+      expect(holidays[15].toString(), '11/3 文化の日');
+      expect(holidays[16].toString(), '11/23 勤労感謝の日');
+    });
+
   });
 }
